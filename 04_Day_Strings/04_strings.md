@@ -188,7 +188,7 @@ radius = 10
 pi = 3.14
 area = pi * radius ** 2
 formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area) # 2 digits after decimal
-print(formated_string)
+print(formated_string) #The area of a circle with a radius 10 is 314.00.
 
 ```
 
@@ -237,7 +237,7 @@ first_letter = language[0]
 print(first_letter) # P
 second_letter = language[1]
 print(second_letter) # y
-last_index = len(language) - 1
+last_index = len(language) - 1 #5
 last_letter = language[last_index]
 print(last_letter) # n
 ```
