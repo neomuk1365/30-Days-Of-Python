@@ -92,7 +92,7 @@ len(tpl)
   fruits = ('banana', 'orange', 'mango', 'lemon')
   first_fruit = fruits[0]
   second_fruit = fruits[1]
-  last_index =len(fruits) - 1
+  last_index = len(fruits) - 1
   last_fruit = fruits[last_index]
   ```
 
@@ -183,9 +183,13 @@ tpl = ('item1', 'item2', 'item3','item4')
 
 ```py
 fruits = ('banana', 'orange', 'mango', 'lemon')
+
 print('orange' in fruits) # True
 print('apple' in fruits) # False
-fruits[0] = 'apple' # TypeError: 'tuple' object does not support item assignment
+
+# Tuples are immutable
+fruits[0] = 'apple'
+# TypeError: 'tuple' object does not support item assignment
 ```
 
 ### Joining Tuples
@@ -221,7 +225,7 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
 ```
 
-🌕 You are so brave, you made it to this far. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are so brave, you made it to this far. You have just completed day 6 challenges and You are 6 steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises: Day 6
 
@@ -237,11 +241,11 @@ del fruits
 
 1. Unpack siblings and parents from family_members
 1. Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
-1. Change the about food_stuff_tp  tuple to a food_stuff_lt list
+1. Change the food_stuff_tp tuple to a food_stuff_lt list
 1. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
 1. Slice out the first three items and the last three items from food_stuff_lt list
 1. Delete the food_stuff_tp tuple completely
-1. Check if an item exists in  tuple:
+1. Check if an item exists in the tuple:
 
 - Check if 'Estonia' is a nordic country
 - Check if 'Iceland' is a nordic country
